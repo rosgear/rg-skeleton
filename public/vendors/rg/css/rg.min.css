@@ -1,0 +1,228 @@
+/*!
+ * Сopyright Copyright (c) 2015 RosGear
+ * https://rosgear.ru/license/
+ */
+
+/* Стик сообщений */
+.rg-stick {
+    display: block !important;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    margin: 0 3px 1px 3px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #cccccc;
+    color: #425460; }
+
+.rg-stick-head {
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    color: #fff; }
+
+.rg-stick-name {
+    font-size: 22px;
+    color: #484848; }
+
+.rg-stick-exception {
+    font-size: 18px;
+    color: #818181; }
+
+.rg-stick-body {
+    font-size: 14px; }
+
+.rg-stick-file {
+    background: #EAF9FF;
+    padding: 5px 10px 5px 10px; }
+
+    .rg-stick-file .file-line {
+        float: right;
+        font-weight: bold; }
+
+    .rg-stick-file .file-letter {
+        font-weight: normal; }
+
+.rg-stick-msg {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    padding: 5px 10px 5px 10px; }
+
+.rg-stick-trace {
+    background: #272822;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+
+    .rg-stick-trace ol,
+    .rg-stick-trace ul {
+        margin: 0;
+        padding: 0 0 0 30px; }
+
+    .rg-stick-trace ol li { 
+        margin-bottom: 7px; }
+
+    .rg-stick-trace .target {
+        line-height: 1.2;
+        font-size: 16px; }
+
+    .rg-stick-trace .target-type,
+    .rg-stick-trace .target-class {
+        font-size: 14px; }
+
+    .rg-stick-trace .target-func {
+        color: #687680; }
+
+    .rg-stick-trace .target-func-args {
+        font-size: 13px; }
+
+        .rg-stick-trace .target-func-args .string {
+            color: #E6DB74; }
+
+        .rg-stick-trace .target-func-args .title {
+            color: #66D9EF; }
+
+        .rg-stick-trace .target-func-args .number {
+            color: #AE81FF; }
+
+        .rg-stick-trace .target-func-args .keyword { 
+            color: #F92672; }
+
+    .rg-stick-trace .target-file {
+        margin-top: 3px;
+        font-size: 13px;
+        color: #c7cccf;
+        line-height: 1; }
+
+        .rg-stick-trace .target-file .file-line {
+            font-weight: bold;
+            font-size: 12px; }
+
+/* стик - ошибка */
+.rg-stick.rg-stick-error .rg-stick-name { color: #e71311; }
+.rg-stick.rg-stick-error .rg-stick-exception { color: #ee7c6f; }
+/* стик - уведомление */
+.rg-stick.rg-stick-notice .rg-stick-name { color: #2e82d7; }
+.rg-stick.rg-stick-notice .rg-stick-exception { color: #46a1ff; }
+/* стик - предупреждение, отладка */
+.rg-stick.rg-stick-warning .rg-stick-name,
+.rg-stick.rg-stick-dump  .rg-stick-name { color: #f19426; }
+.rg-stick.rg-stick-warning .rg-stick-exception,
+.rg-stick.rg-stick-dump .rg-stick-exception { color: #ffb258; }
+
+/* Разметка компонента */
+.rg-markup-cmp {
+    display: block;
+    border: 1px dotted #000 !important; }
+
+    .rg-markup-cmp:hover {
+        border: 1px dotted #000 !important;
+        background: rgba(33, 115, 70, 0.1); }
+
+/* Управление разметкой компонента */
+.rg-markup-cmp__control {
+    position: absolute;
+    width: 45px;
+    height: 25px;
+    background: #fff url(../img/icon-component-ctrl.svg) no-repeat 5px center;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 5px -1px #000;
+    -moz-box-shadow: 1px 1px 5px -1px #000;
+    box-shadow: 1px 1px 5px -1px #000; }
+
+    .rg-markup-cmp__control:hover {
+        background-color: #b1cebe;
+        cursor: pointer; }
+
+    .rg-markup-cmp__control::after {
+        content: '';
+        position: absolute;
+        right: 2px;
+        top: 0;
+        width: 17px;
+        height: 100%;
+        border-radius: 0 4px 4px 0;
+        border-left: 1px solid #f1f1f1;
+        background: transparent url(../img/icon-btn-down.svg) no-repeat center center; }
+
+        .rg-markup-cmp__control:hover::after {
+            border-left: 1px solid #9bb6a7; }
+
+/* Разметка блока */
+.rg-markup-block {
+    display: block;
+    border: 1px dotted #000 !important; }
+
+.rg-markup-block:hover {
+    border: 1px dotted #000 !important;
+    background: rgba(33, 115, 70, 0.1); }
+
+/* Управление разметкой блока */
+.rg-markup-block__control {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: #fff url(../img/icon-block-ctrl.svg) no-repeat 5px center;
+    background-size: 55%;
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 1px 5px -1px #000;
+    -moz-box-shadow: 1px 1px 5px -1px #000;
+    box-shadow: 1px 1px 5px -1px #000; }
+
+    .rg-markup-block__control:hover {
+        width: 25px;
+        height: 25px;
+        background: #217346 url(../img/icon-block-ctrl_hover.svg) no-repeat 5px center;
+        background-size: 55%;
+        cursor: pointer;
+        transition: 0.3s; }
+
+/* Меню разметки */
+.rg-markup-menu {
+    z-index: 1000;
+    display: none;
+    position: absolute;
+    width: 200px;
+    background: #fff;
+    left: 0;
+    top: 24px;
+    box-shadow: #888 0px 0px 6px;
+    font: normal 13px/16px arial, helvetica, verdana, sans-serif; }
+
+.rg-markup-menu__icon {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 16px;
+    height: 16px; }
+
+.rg-markup-menu__item {
+    padding: 9px 7px 9px 12px;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; }
+
+.rg-markup-menu__item-icon { 
+    position: relative;
+    padding-left: 33px;  }
+
+    .rg-markup-menu__item:hover {
+        background: #d8e7df; }
+
+.rg-markup-menu__item-sp {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    margin: 1px 0 1px 0; }
+
+    .rg-markup-menu__item-sp::after {
+        content: '';
+        position: absolute;
+        left: 3px;
+        right: 3px;
+        top: 0;
+        height: 1px;
+        border-bottom: 1px solid #d9d9d9; }
+
+/* Значки */
+.rg-markup__icon-markup-settings { background: url(../img/icon-markup-settings.svg); }
+.rg-markup__icon-hide { background: url(../img/icon-hide.svg); }
+.rg-markup__icon-show { background: url(../img/icon-show.svg); }
