@@ -23,6 +23,9 @@ return [
     'Application' => 'Приложение',
     'Web application' => 'Веб-приложение',
 
+    /** {@see \Ge} */
+    'Object is not defined "{0}"' => 'Невозможно определить объект "{0}".',
+
     /** {@see \Ge\Exception\TokenMismatchException} */
     'CSRF token mismatch' => 'Несовпадение токена CSRF',
     'CSRF token is invalid or missing' => 'CSRF токен недействителен или отсутствует.',

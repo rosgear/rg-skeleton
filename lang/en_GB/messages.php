@@ -23,6 +23,9 @@ return [
     'Application' => 'Application',
     'Web application' => 'Web application',
 
+    /** {@see \Ge} */
+    'Object is not defined "{0}"' => 'Object is not defined "{0}".',
+
     /** {@see \Ge\Exception\TokenMismatchException} */
     'CSRF token mismatch' => 'CSRF token mismatch',
     'CSRF token is invalid or missing' => 'CSRF token is invalid or missing.',
