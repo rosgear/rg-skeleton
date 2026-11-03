@@ -59,7 +59,7 @@ return [
 
     /** {@see \Ge\ModuleManager\BaseManager}, {@see \Ge\WidgetManager\WidgetManager} */
     '{0} with id "{1}" not exists' => '{0} with id "{1}" not exists.',
-    'File {0} "{0}" not exists' => 'File {0} "{0}" not exists.',
+    'File {0} "{1}" not exists' => 'File {0} "{1}" not exists.',
     /** {@see \Ge\ModuleManager\ModuleManager} */
     'Missing "{1}" in options to load {0}' => 'Missing "{1}" in options to load {0}.',
 

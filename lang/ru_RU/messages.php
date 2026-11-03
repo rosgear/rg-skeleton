@@ -59,7 +59,7 @@ return [
 
     /** {@see \Ge\ModuleManager\BaseManager}, {@see \Ge\WidgetManager\WidgetManager} */
     '{0} with id "{1}" not exists' => '{0} с идентификатором "{1}" не существует.',
-    'File {0} "{0}" not exists' => '{0} не имеет файл "{0}".',
+    'File {0} "{1}" not exists' => '{0} не имеет файл "{1}".',
     /** {@see \Ge\ModuleManager\ModuleManager} */
     'Missing "{1}" in options to load {0}' => '{0} не имеет параметр "{1}" для загрузки.',
 
