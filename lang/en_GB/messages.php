@@ -1,11 +1,11 @@
 <?php
 /**
- * Этот файл является частью пакета Ge Framework.
+ * Локализация сообщений компонентов Ge Framework.
  * 
- * Сообщения (пакет английской (британской) локализации).
+ * Английская (британская) локализация.
  * 
- * @link https://rosgear.ru/framework/
- * @copyright Copyright (c) 2015 RosGear
+ * @link https://rosgear.ru
+ * @copyright Copyright (c) 2026 RosGear
  * @license https://rosgear.ru/license/
  */
 
@@ -241,5 +241,5 @@ return [
     'Unable to package update package files "{0}"' => 'Unable to package update package files "{0}".',
     'Update pckage option "{0}" not specified or specified incorrectly' => 'Update pckage option "{0}" not specified or specified incorrectly.',
     'Your app version is not compatible with the update packages version' => 'Your app version is not compatible with the update packages version.',
-    'Update package with ID "{0}" is missing' => 'Update package with ID "{0}" is missing.',
+    'Update package with ID "{0}" is missing' => 'Update package with ID "{0}" is missing.'
 ];

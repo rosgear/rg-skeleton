@@ -1,11 +1,11 @@
 <?php
 /**
- * Этот файл является частью пакета GePanel.
+ * Локализация сообщений пакета компонентов GePanel.
  * 
- * Пакет русской локализации.
+ * Русская локализация.
  * 
- * @link https://rosgear.ru/framework/
- * @copyright Copyright (c) 2015 RosGear
+ * @link https://rosgear.ru
+ * @copyright Copyright (c) 2026 RosGear
  * @license https://rosgear.ru/license/
  */
  

@@ -1,17 +1,17 @@
 <?php
 /**
- * Этот файл является частью пакета Ge Framework.
+ * Локализация представления форматов, плюралов и величин.
  * 
- * Формат (пакет русской локализации).
+ * Русская локализация.
  * 
- * @link https://rosgear.ru/framework/
- * @copyright Copyright (c) 2015 RosGear
+ * @link https://rosgear.ru
+ * @copyright Copyright (c) 2026 RosGear
  * @license https://rosgear.ru/license/
  */
  
 return [
     /** {@see \Ge\I18n\Formatter} */
-    // единица измерения информации
+    // формат информации
     'B' => 'Б',
     'GB' => 'ГБ',
     'GiB' => 'ГиБ',
@@ -23,6 +23,7 @@ return [
     'PiB' => 'ПиБ',
     'TB' => 'ТБ',
     'TiB' => 'ТиБ',
+    // плюрал информации
     '{n, plural, =1{byte} other{bytes}}' => '{n, plural, one{байт} few{байта} many{байтов} other{байта}}',
     '{n, plural, =1{gibibyte} other{gibibytes}}' => '{n, plural, one{гибибайт} few{гибибайта} many{гибибайтов} other{гибибайта}}',
     '{n, plural, =1{gigabyte} other{gigabytes}}' => '{n, plural, one{гигабайт} few{гигабайта} many{гигабайтов} other{гигабайта}}',
@@ -34,7 +35,7 @@ return [
     '{n, plural, =1{petabyte} other{petabytes}}' => '{n, plural, one{петабайт} few{петабайта} many{петабайтов} other{петабайта}}',
     '{n, plural, =1{tebibyte} other{tebibytes}}' => '{n, plural, one{тебибайт} few{тебибайта} many{тебибайтов} other{тебибайта}}',
     '{n, plural, =1{terabyte} other{terabytes}}' => '{n, plural, one{терабайт} few{терабайта} many{терабайтов} other{терабайта}}',
-    // дата и время
+    // плюрал даты и времени
     '{n, plural, =1{1 day} other{# days}}' => '{n, plural, one{# день} few{# дня} many{# дней} other{# дня}}',
     '{n, plural, =1{1 hour} other{# hours}}' => '{n, plural, one{# час} few{# часа} many{# часов} other{# часа}}',
     '{n, plural, =1{1 minute} other{# minutes}}' => '{n, plural, one{# минута} few{# минуты} many{# минут} other{# минуты}}',
@@ -47,16 +48,11 @@ return [
     '{n, plural, =1{a second} other{# seconds}} ago' => '{n, plural, =1{секунду} one{# секунду} few{# секунды} many{# секунд} other{# секунды}} назад',
     '{n, plural, =1{a year} other{# years}} ago' => '{n, plural, =1{год} one{# год} few{# года} many{# лет} other{# года}} назад',
     '{n, plural, =1{an hour} other{# hours}} ago' => '{n, plural, =1{час} one{# час} few{# часа} many{# часов} other{# часа}} назад',
-    //  дата и время
+    //  плюрал даты и времени (условие)
     'in {n, plural, =1{a day} other{# days}}' => 'через {n, plural, =1{день} one{# день} few{# дня} many{# дней} other{# дня}}',
     'in {n, plural, =1{a minute} other{# minutes}}' => 'через {n, plural, =1{минуту} one{# минуту} few{# минуты} many{# минут} other{# минуты}}',
     'in {n, plural, =1{a month} other{# months}}' => 'через {n, plural, =1{месяц} one{# месяц} few{# месяца} many{# месяцев} other{# месяца}}',
     'in {n, plural, =1{a second} other{# seconds}}' => 'через {n, plural, =1{секунду} one{# секунду} few{# секунды} many{# секунд} other{# секунды}}',
     'in {n, plural, =1{a year} other{# years}}' => 'через {n, plural, =1{год} one{# год} few{# года} many{# лет} other{# года}}',
-    'in {n, plural, =1{an hour} other{# hours}}' => 'через {n, plural, =1{час} one{# час} few{# часа} many{# часов} other{# часа}}',
-    // денежные единицы
-    '{n, plural, =1{Russian ruble} other{Russian rubles}}' => '{n, plural, one{Российский рубль} few{Российского рубля} many{Российских рублей} other{Российских рублей}}',
-    '{n, plural, =1{ruble} other{rubles}}' => '{n, plural, one{рубль} few{рубля} many{рублей} other{рублей}}',
-    '{n, plural, =1{kopeck} other{kopecks}}' => '{n, plural, one{копейка} few{копейки} many{копеек} other{копеек}}',
-
+    'in {n, plural, =1{an hour} other{# hours}}' => 'через {n, plural, =1{час} one{# час} few{# часа} many{# часов} other{# часа}}'
 ];

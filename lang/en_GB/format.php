@@ -1,103 +1,58 @@
 <?php
 /**
- * Этот файл является частью пакета Ge Framework.
+ * Локализация представления форматов, плюралов и величин.
  * 
- * Формат информации (пакет английской (британской) локализации).
+ * Английская (британская) локализация.
  * 
- * @link https://rosgear.ru/framework/
- * @copyright Copyright (c) 2015 RosGear
+ * @link https://rosgear.ru
+ * @copyright Copyright (c) 2026 RosGear
  * @license https://rosgear.ru/license/
  */
 
 return [
-    // короткая запись единиц измерения информации
-    '{shortSizeInBytes}' => [
-        'byte' => 'byte', 'bytes' => 'bytes', 'Kb' => 'Kb', 'Mb' => 'Mb', 'Gb' => 'Gb', 'Tb' => 'Tb'
-    ],
-    // полная запись единиц измерения информации
-    '{fullSizeInBytes}' => [
-        'byte' => 'byte', 'bytes' => 'bytes', 'Kilobytes' => 'Kilobytes', 'Megabytes' => 'Megabytes', 'Gigabytes' => 'Gigabytes', 'Terabytes' => 'Terabytes'
-    ],
-    // дата
-    '{date}' => [
-        // дни недели
-        'Sunday'    => 'Sunday',
-        'Monday'    => 'Monday',
-        'Tuesday'   => 'Tuesday',
-        'Wednesday' => 'Wednesday',
-        'Thursday'  => 'Thursday',
-        'Friday'    => 'Friday',
-        'Saturday'  => 'Saturday',
-        // дни недели (сокр)
-        'Sun' => 'Sun',
-        'Mon' => 'Mon',
-        'Tue' => 'Tue',
-        'Wed' => 'Wed',
-        'Thu' => 'Thu',
-        'Fri' => 'Fri',
-        'Sat' => 'Sat',
-        // месяц
-        'January'     => 'January',
-        'of January'  => 'of January',
-        'February'    => 'February',
-        'of February' => 'of February',
-        'March'       => 'March',
-        'of March'    => 'of March',
-        'April'       => 'April',
-        'of April'    => 'of April',
-        'May'         => 'May',
-        'of May'      => 'of May',
-        'June'        => 'June',
-        'of June'     => 'of June',
-        'July'        => 'July',
-        'of July'     => 'of July',
-        'August'      => 'August',
-        'of August'   => 'of August',
-        'September'   => 'September',
-        'of September' => 'of September',
-        'October'     => 'October',
-        'of October'  => 'of October',
-        'November'    => 'November',
-        'of November' => 'of November',
-        'December'    => 'December',
-        'of December' => 'of December',
-        // месяц (сокр)
-        'Jan' => 'Jan',
-        'Feb' => 'Feb',
-        'Mar' => 'Mar',
-        'Apr' => 'Apr',
-        'May' => 'May',
-        'Jun' => 'Jun',
-        'Jul' => 'Jul',
-        'Aug' => 'Aug',
-        'Sep' => 'Sep',
-        'Oct' => 'Oct',
-        'Nov' => 'Nov',
-        'Dec' => 'Dec',
-        // период
-        'an hour ago' => 'an hour ago',
-        'hour ago'    => 'hour ago',
-        'hours ago'   => 'hours ago',
-        'just'          => 'just',
-        'minutes ago'   => 'minutes ago',
-        'a minutes ago' => 'a minutes ago',
-        'a minute ago'  => 'a minute ago',
-        'yesterday' => 'yesterday',
-        'day ago'   => 'day ago',
-        'a day ago' => 'a day ago',
-        'days ago'  => 'days ago',
-        'Yesterday' => 'Yesterday',
-        'Today'     => 'Today',
-        'week ago'  => 'week ago',
-        'weeks ago' => 'weeks ago',
-        'last week' => 'last week',
-        'a month ago' => 'a month ago',
-        'month ago' => 'month ago',
-        'months ago'  => 'months ago',
-        'last year'   => 'last year',
-        'years ago'   => 'years ago',
-        'a years ago' => 'a years ago',
-        'years' => 'years',
-        'th' => 'th'
-    ]
+    /** {@see \Ge\I18n\Formatter} */
+    // формат информации
+    'B' => 'B',
+    'GB' => 'GB',
+    'GiB' => 'GiB',
+    'KB' => 'KB',
+    'KiB' => 'KiB',
+    'MB' => 'MB',
+    'MiB' => 'MiB',
+    'PB' => 'PB',
+    'PiB' => 'PiB',
+    'TB' => 'TB',
+    'TiB' => 'TiB',
+    // плюрал информации
+    '{n, plural, =1{byte} other{bytes}}' => '{n, plural, =1{byte} other{bytes}}',
+    '{n, plural, =1{gibibyte} other{gibibytes}}' => '{n, plural, =1{gibibyte} other{gibibytes}}',
+    '{n, plural, =1{gigabyte} other{gigabytes}}' => '{n, plural, =1{gigabyte} other{gigabytes}}',
+    '{n, plural, =1{kibibyte} other{kibibytes}}' => '{n, plural, =1{kibibyte} other{kibibytes}}',
+    '{n, plural, =1{kilobyte} other{kilobytes}}' => '{n, plural, =1{kilobyte} other{kilobytes}}',
+    '{n, plural, =1{mebibyte} other{mebibytes}}' => '{n, plural, =1{mebibyte} other{mebibytes}}',
+    '{n, plural, =1{megabyte} other{megabytes}}' => '{n, plural, =1{megabyte} other{megabytes}}',
+    '{n, plural, =1{pebibyte} other{pebibytes}}' => '{n, plural, =1{pebibyte} other{pebibytes}}',
+    '{n, plural, =1{petabyte} other{petabytes}}' => '{n, plural, =1{petabyte} other{petabytes}}',
+    '{n, plural, =1{tebibyte} other{tebibytes}}' => '{n, plural, =1{tebibyte} other{tebibytes}}',
+    '{n, plural, =1{terabyte} other{terabytes}}' => '{n, plural, =1{terabyte} other{terabytes}}',
+    // плюрал даты и времени
+    '{n, plural, =1{1 day} other{# days}}' => '{n, plural, =1{1 day} other{# days}}',
+    '{n, plural, =1{1 hour} other{# hours}}' => '{n, plural, =1{1 hour} other{# hours}}',
+    '{n, plural, =1{1 minute} other{# minutes}}' => '{n, plural, =1{1 minute} other{# minutes}}',
+    '{n, plural, =1{1 month} other{# months}}' => '{n, plural, =1{1 month} other{# months}}',
+    '{n, plural, =1{1 second} other{# seconds}}' => '{n, plural, =1{1 second} other{# seconds}}',
+    '{n, plural, =1{1 year} other{# years}}' => '{n, plural, =1{1 year} other{# years}}',
+    '{n, plural, =1{a day} other{# days}} ago' => '{n, plural, =1{a day} other{# days}} ago',
+    '{n, plural, =1{a minute} other{# minutes}} ago' => '{n, plural, =1{a minute} other{# minutes}} ago',
+    '{n, plural, =1{a month} other{# months}} ago' => '{n, plural, =1{a month} other{# months}} ago',
+    '{n, plural, =1{a second} other{# seconds}} ago' => '{n, plural, =1{a second} other{# seconds}} ago',
+    '{n, plural, =1{a year} other{# years}} ago' => '{n, plural, =1{a year} other{# years}} ago',
+    '{n, plural, =1{an hour} other{# hours}} ago' => '{n, plural, =1{an hour} other{# hours}} ago',
+    //  плюрал даты и времени (условие)
+    'in {n, plural, =1{a day} other{# days}}' => 'in {n, plural, =1{a day} other{# days}}',
+    'in {n, plural, =1{a minute} other{# minutes}}' => 'in {n, plural, =1{a minute} other{# minutes}}',
+    'in {n, plural, =1{a month} other{# months}}' => 'in {n, plural, =1{a month} other{# months}}',
+    'in {n, plural, =1{a second} other{# seconds}}' => 'in {n, plural, =1{a second} other{# seconds}}',
+    'in {n, plural, =1{a year} other{# years}}' => 'in {n, plural, =1{a year} other{# years}}',
+    'in {n, plural, =1{an hour} other{# hours}}' => 'in {n, plural, =1{an hour} other{# hours}}'
 ];

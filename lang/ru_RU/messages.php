@@ -1,11 +1,11 @@
 <?php
 /**
- * Этот файл является частью пакета Ge Framework.
+ * Локализация сообщений компонентов Ge Framework.
  * 
- * Сообщения (пакет русской локализации).
+ * Русская локализация.
  * 
- * @link https://rosgear.ru/framework/
- * @copyright Copyright (c) 2015 RosGear
+ * @link https://rosgear.ru
+ * @copyright Copyright (c) 2026 RosGear
  * @license https://rosgear.ru/license/
  */
 
@@ -108,7 +108,7 @@ return [
     'from() expects $table as an array is a single element associative array' => 'from() ожидает, что $table как массив является ассоциативным массивом из одного элемента.',
     'Quantifier must be one of DISTINCT, ALL, or some platform specific object implementing ExpressionInterface' => 'Квантификатор должен быть одним из DISTINCT, ALL или какого-то конкретного платформенного объекта, реализующего ExpressionInterface.',
     /** {@see \Ge\Db\Adapter} */
-    'Could find connection config' => 'Неи смог найти конфигуратор соединения.',
+    'Could find connection config' => 'Не смог найти конфигуратор соединения.',
     /** {@see \Ge\Db\Adapter\Driver\MySqli\Command} */
     'Can not execute SQL request, query is empty' => 'Невозможно выполнить запрос SQL, запрос пуст.',
     'Error executing database query' => 'Ошибка при выполнении запроса к базе данных.',
@@ -241,5 +241,5 @@ return [
     'Unable to package update package files "{0}"' => 'Невозможно упаковать файлы пакета обновлений "{0}"',
     'Update pckage option "{0}" not specified or specified incorrectly' => 'Не указан или неправильно указан параметр "{0}" пакета обновлений.',
     'Your app version is not compatible with the update packages version' => 'Версия вашего приложения не совместима с версией пакета обновлений.',
-    'Update package with ID "{0}" is missing' => 'Отсутствует пакет обновлений с идентификатором "{0}".',
+    'Update package with ID "{0}" is missing' => 'Отсутствует пакет обновлений с идентификатором "{0}".'
 ];

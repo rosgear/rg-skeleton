@@ -1,13 +1,11 @@
 <?php
 /**
- * Этот файл является частью пакета Ge Framework.
+ * Локализация сообщений API в компонентах веб-приложения.
  * 
- * API сообщения (пакет русской локализации).
+ * Русская локализация.
  * 
- * Применяется для модулей, расширений и виджетов использующие API.
- * 
- * @link https://rosgear.ru/framework/
- * @copyright Copyright (c) 2015 RosGear
+ * @link https://rosgear.ru
+ * @copyright Copyright (c) 2026 RosGear
  * @license https://rosgear.ru/license/
  */
  

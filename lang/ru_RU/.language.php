@@ -1,11 +1,11 @@
 <?php
 /**
- * Этот файл является частью пакета Ge Framework.
+ * Файл конфигурации пакета локализации.
  * 
- * Файл конфигурации пакета русской локализации.
+ * Русская локализация.
  * 
- * @link https://rosgear.ru/framework/
- * @copyright Copyright (c) 2015 RosGear
+ * @link https://rosgear.ru/
+ * @copyright Copyright (c) 2026 RosGear
  * @license https://rosgear.ru/license/
  */
 
@@ -15,16 +15,16 @@ return [
     'countryCode'   => 643,
     'name'          => 'Русский язык',
     'shortName'     => 'Русский',
-    'country'       => 'Россия',
+    'country'       => 'Russia',
     'slug'          => 'ru',
     'tag'           => 'ru-RU',
     'locale'        => 'ru_RU',
     'alternative'   => 'en_GB',
     'translated'    => '100%',
-    'translatedFor' => 'framework, modules, ge panel',
+    'translatedFor' => 'Framework, GePanel, API, Components',
     'versionNumber' => '1.1',
-    'versionDate'   => '01-01-2015',
-    'versionAuthor' => 'anton.tivonenko@gmail.com',
+    'versionDate'   => '01-11-2026',
+    'versionAuthor' => 'anton.tivonenko@rosgear.ru',
     FRONTEND        => true,
     BACKEND         => true
 ];
